@@ -7,5 +7,10 @@ yarn
 run code
 
 ``` 
-poi index.tsx
+yarn dev
+```
+
+run tests
+```
+yarn test
 ```
