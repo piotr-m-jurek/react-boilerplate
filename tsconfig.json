@@ -4,6 +4,7 @@
     "strict": true,
     "module": "commonjs",
     "moduleResolution": "node",
-    "jsx": "react"
+    "jsx": "react",
+    "allowSyntheticDefaultImports": true
   }
 }

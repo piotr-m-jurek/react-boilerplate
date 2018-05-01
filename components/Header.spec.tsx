@@ -1,15 +1,15 @@
 import * as React from 'react';
 import { shallow } from 'enzyme';
 
-import App from '../components/App';
+import Header from '../components/Header';
 
-describe('App', () => {
+describe('Header', () => {
   it('should exist', () => {
-    expect(App).toBeDefined();
+    expect(Header).toBeDefined();
   });
 
   it('should render', () => {
-    const wrapper = shallow(<App />);
+    const wrapper = shallow(<Header text="Hello React!"/>);
     expect(wrapper.find('h1').contains('Hello React!')).toEqual(true);
   });
 });
